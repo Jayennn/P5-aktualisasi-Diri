@@ -1,0 +1,81 @@
+:root {
+    --body: hsl(218, 23%, 16%);
+    --card: hsl(217, 19%, 24%);
+    --test: hsl(217, 19%, 38%);
+    --neon: hsl(150, 100%, 66%);
+    --text: hsl(193, 38%, 86%);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+body {
+    background-color: var(--body);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 800px;
+    background-color: var(--card);
+    border-radius: 10px;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.card-image  {
+    display: flex;
+    gap: 10px;
+}
+
+.card-image .image-item {
+    max-width: 185px;
+    cursor: pointer;
+}
+
+.card-image .image-item .image_show {
+    border-radius: 10px;
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.card-image .image-item .title-image {
+    text-align: center;
+    color: white;
+}
+
+.show-image {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-bottom: 15px;
+    height: 10rem;
+}
+
+.show-image .description {
+    color: var(--text);
+}
+
+.show-image .description ul {
+    margin-left: 15px;
+}
+
+.image-wrapper {
+    max-width: 185px;
+    max-height: 200px;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
