@@ -14,7 +14,7 @@ function updateImage(event) {
     mainPhoto.src = image.src;
     title_card.style.display = 'none';
     
-    if (mainPhoto.src == 'assets/consoleGame.jfif') {
+    if (mainPhoto.src == 'https://p5-aktualisasi.netlify.app/assets/consoleGame.jfif') {
         imageWrapper.style.display = 'block';
         desc.style.display = 'block'
         title.innerHTML = 'Hobby Saya';
@@ -26,7 +26,7 @@ function updateImage(event) {
             </ul>`;
     }
     
-    if (mainPhoto.src == 'assets/goodSide.jfif') {
+    if (mainPhoto.src == 'https://p5-aktualisasi.netlify.app/assets/goodSide.jfif') {
         imageWrapper.style.display = 'block';
         desc.style.display = 'block'
         title.innerHTML = 'Kelebihan Saya';
@@ -38,7 +38,7 @@ function updateImage(event) {
             </ul>`;
     }
     
-    if (mainPhoto.src == 'assets/badSide.png') {
+    if (mainPhoto.src == 'https://p5-aktualisasi.netlify.app/assets/badSide.png') {
         imageWrapper.style.display = 'block';
         desc.style.display = 'block'
         title.innerHTML = 'Kekurangan Saya';
@@ -50,7 +50,7 @@ function updateImage(event) {
             </ul>`;
     }
 
-    if (mainPhoto.src == 'assets/myGoals.jfif') {
+    if (mainPhoto.src == 'https://p5-aktualisasi.netlify.app/assets/myGoals.jfif') {
         imageWrapper.style.display = 'block';
         desc.style.display = 'block'
         title.innerHTML = 'Cita cita Saya';
